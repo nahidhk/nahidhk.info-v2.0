@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+
+<h1>The Window Object</h1>
+<h2>The setTimeout() and clearTimeout() Methods</h2>
+
+<p>Click "Stop" to prevent myGreeting() to execute. (You have 5 seconds)</p>
+
+<button onclick="myStopFunction()">Stop!</button>
+
+<h2 id="demo"></h2>
+
+<script>
+ setTimeout(myGreeting, 1000);
+
+function myGreeting() {
+  document.getElementById("demo").innerHTML = "Happy Birthday!"
+}
+
+//function myStopFunction() {
+  //clearTimeout(myTimeout);
+//}
+</script>
+
+</body>
+
+</html>

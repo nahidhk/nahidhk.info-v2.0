@@ -1,0 +1,934 @@
+/*Add The index.html*/
+
+@font-face {
+  font-family: font1;
+  src: url("font/SpaceGrotesk-SemiBold.ttf");
+}
+/* body All html */
+body {
+  word-wrap: break-word;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    background-size: cover;
+    font-family: font1;
+}
+/* nav All Html */
+.nav{
+  width: 100%;
+  height: 60px;
+  background-color: #FFFFFFC9;
+ position: fixed;
+ top: 0;
+ border-bottom: 1px solid black;
+ z-index: 9;
+ 
+}
+.cng{
+   animation: kso1 1s;
+
+}
+/* nav text all html */
+.cng1{
+  font-family: font1;
+  font-size: 40px;
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  color: #FF004A;
+  cursor: pointer;
+}
+/*
+.main1{
+  width: 50%;
+  height: 400px;
+  background-color: #5761FF6B;
+  float: left;
+  animation: ani1 1s;
+}
+@keyframes ani1{
+  0%{
+    width: 0%;
+  }
+  100%{
+  width: 100%;  
+  }
+}
+
+.main2{
+  width: 50%;
+  right: 0; 
+  height: 400px;
+  background-color: #FF57FC;
+ float: right;
+  animation: ani1 1s;
+}
+@keyframes ani2{
+  0%{
+    width: 0%;
+  }
+  100%{
+  width: 50%;  
+  }
+}
+
+*/
+
+/* The Text Type use*/ 
+.red{
+  font-size: 1.7rem;
+  
+  font-family: font1;
+}
+/* 1 text type use ///*/
+.typed-text {
+  color: #FFAE59;
+  font-family: font1;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  margin-left: 4px;
+  background: red;
+}
+
+.cursor.blink {
+  animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    background: turquoise;
+  }
+  40%, 50% {
+    background: transparent;
+  }
+}
+.text-nox{
+  height: 250px;
+}
+/* 2 end */
+/* 1 carasole */
+.medi{
+  height: 100px;
+  width: 100%;
+  
+}
+.medi-img{
+  height: 100px;
+  width: auto;
+  margin-left: 30px;
+}
+
+.evo{
+height: 100px;
+
+text-align: center;
+}
+
+ .slider{
+   height: 100px;
+ }
+ 
+/*2 end */
+ 
+ 
+/*========== Loading style=======*/
+.top-lod{
+
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #FFFFFF8C;
+  backdrop-filter: blur(10px);
+  
+}  
+.lod-img-box{
+  font-size: 20pt;
+  color: red;  
+  animation: admin1 1s infinite;
+  height: auto;
+  width: auto;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+}  
+@keyframes admin1{
+  0%{
+    color: #8D04FF;
+  }
+  100%{
+    color: #04DBFF;
+  }
+}
+.admin{
+ border-radius: 200px;
+  height: 200px;
+ animation: admin 1s ;
+}
+
+@keyframes admin{
+  0%{
+    opacity: 0;
+
+  }
+  90%{
+  opacity: 1; 
+  }
+  100%{
+  
+  }
+  
+}   
+.load{
+
+  height: 200px;
+  width: 200px;
+  animation: loading 1s infinite;
+  border-radius: 300px;
+  border-bottom: 10px dotted #8D04FF;
+  border-top: 10px dotted #FF04CC;
+  
+  border-left: 10px solid #0487FF00;
+    border-right: 10px solid #0487FF00;
+}  
+@keyframes loading{
+  0%{
+    
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+} 
+.lod-txt{
+  display: none;
+}
+
+/*====== end lidding style===*/
+
+
+/*====== serch style====\*/
+.token{
+  color: #1AFF00;
+  font-size: 15pt;
+}
+button{
+  font-family: font1;
+}
+button:active{
+  background-color: #1428FF;
+}
+
+/* ==- The data is a end ===*/
+
+
+/*========== skills the About======*/
+.bag{
+ display: none;
+  height: 630px;
+  width: 90%;
+  background-color: #FFFFFFA6;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.text-ss{
+  font-size: 2rem;
+  color: #FF3232;
+  text-align: center;
+padding-top: 10px;
+}
+.topi{
+  height: 15px;
+  width: 200px;
+  background-color: red;
+  border-radius: 100px;
+ background-image: linear-gradient(20deg, #00C5FF,#FF0078)
+}
+
+/*html page*/
+.html{
+  height: 20px;
+  
+}
+.skill{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 90%;
+  background-color: #FFFFFFAD;
+  margin-left: 20px;
+  border-radius: 100px;
+}
+.sdata{
+ height: 30px;
+ background-color: #FF0089;
+ border-radius: 100px;
+ 
+}
+.w1{
+ font-size: 18pt;
+ color: #E4E4E4;
+ float: right;
+}
+.s-text{
+  font-size: 20pt;
+  color: #F900FF;
+  padding-left: 30px;
+  
+}
+.html{
+  width: 95%;
+  animation: html 1s;
+}
+.css{
+  width: 77%;
+    animation: css 1s;
+}
+.js{
+  width: 70%;
+    animation: js 1s;
+}
+.php{
+  width: 40%;
+    animation: php 1s;
+}
+.mc{
+  width: 95%;
+    animation: mc 1s;
+}
+
+@keyframes html{
+  0%{width: 5%}
+  100%{width: 95%}
+}
+@keyframes css{
+  0%{width: 5%}
+  100%{width: 77%}
+}
+@keyframes js{
+  0%{width: 5%}
+  100%{width: 70%}
+}
+@keyframes php{
+  0%{width: 5%}
+  100%{width: 40%}
+}
+@keyframes mc{
+  0%{width: 5%}
+  100%{width: 95%}
+}
+.fiv{
+  
+  border-radius: 100px;
+  margin-left: 30px;
+  height: 5px;
+  width: 200px;
+  background-color: yellow;
+  background-image: linear-gradient(200deg, #00C5FF,#FF0078)
+ 
+}
+.fiv1{
+    width: 260px;
+}
+/*=========== about Box ====*/
+.about-box{
+    color: #626262;
+    
+  height: auto;
+  padding: 10px;
+  padding-bottom: 30px;
+  width: 90%;
+  background-color: #FFFFFF99;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 #FFFFFF;
+  border: 0.1px solid #000000;
+}
+.node-txt{
+  color: #626262;
+  font-size: 2rem;
+-webkit-column-break-inside: end;
+border-bottom: 10px solid ;
+
+border-radius: 10px;
+
+}
+
+.audio:active{
+  width: 180px;
+  height: 25px;
+}
+.audio{
+  height: 27px;
+  width: 200px;
+  background-color: #2E981800;
+   border-radius: 10px;
+   border:1px solid #FF7900;
+   color: #FF7900;
+   padding: 10px;
+}
+.audio:hover{
+  background-color: #FF7900;
+  border: none;
+  color: white;
+}
+/*=========== about Box ====*/
+
+
+/* bottom relod page open */
+.bottom{
+  display: none;
+  animation: bottom 1s;
+  text-align: center;
+  height: 70px;
+ padding-top: 15px;
+  position: fixed;
+  bottom: 0;
+ width: 100%;
+ background-color: #FF7B00;
+}
+.rote{
+  background-image: url("font/20231126_210928.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #FFFFFF00;
+  float: left;
+  margin-left: 20px;
+  animation: reload 5s infinite;
+}
+@keyframes reload{
+  0%{
+    transform: rotateZ(-360deg)
+  }
+  100%{
+    transform: rotateZ(360deg)
+    
+  }
+}
+.close{
+  display: none;
+  height: 20px;
+  width: 20px;
+ background-color: #FFFFFF;
+ bottom: 85px;
+ position: fixed;
+ padding: 10px;
+ font-size: 20pt;
+ border: 1px dotted #FF0000;
+}
+@keyframes bottom{
+  0%{
+    height: 0;
+  }
+  100%{
+    height:70px;
+  }
+}
+#id2:active{
+  background-color: red;
+}
+.amotik{
+  height: 85px;
+  width: 100%;
+  position: fixed;
+ color:#FF7B00;
+    bottom: 0;
+
+}
+.amotik:hover{
+  font-size: 30pt;
+  color: #000000;
+  height: 85px;
+  width: 100%;
+  background-color: #FFFFFFAB;
+  position: fixed;
+  bottom: 0;
+ animation: mi 0.1s;
+}
+@keyframes mi{
+  0%{width: 0;}
+  100%{width: 100%;}
+}
+.gtext{
+  padding-bottom: 15px;
+  padding-top: 15px;
+ background-color: #FFFFFFAD;
+ height: 25px;
+ width: 90%;
+}
+
+
+
+/*=== the nav menu destop===*/
+.nav-data{
+  height: 60px;
+  width: 65%;
+  position: absolute;
+  right: 20px;
+  
+}
+.nav-data .button{
+  height: 58px;
+ 
+  background-color: #00000000;
+outline: none;
+border: none;
+ 
+}
+.nav-data button:hover{
+  border-bottom: 4px solid #498E2E;
+}
+.active{
+  color: #498E2E;
+  border: 2px solid #498e3e;
+}
+.button:active{
+ border: 2px solid #498E2E;
+}
+/*===== focus use ======*/
+input:focus , textarea:focus{
+  background-color: white;
+}
+
+
+/*==\ use of and roid ////*/
+
+
+.menu,.mobile{
+ display: none;
+}
+
+/*=== contact===\ css ===*/
+.cont{
+  height: 500px;
+  width: 100%;
+  background-image: linear-gradient(360deg,#00ECFFAB,#FF00E2AB);
+}
+.h1tag{
+  font-size: 2rem;
+  color:#FFAB65;
+}
+.w5{
+width: 300px;
+}
+.font-box{
+  
+  height: 200px;
+  width: 60%;
+
+}
+.follow{
+  box-shadow: 0 0 2px 0 black;
+  border: 1px dotted #FFBB00;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+ background-color: #FF000000;
+ color: white;
+ margin: 10px;
+    
+
+}
+.follow:hover{
+     animation: apk 1s infinite;
+
+}
+@keyframes apk{
+  0%{
+    background-image: linear-gradient(50deg,#EB00FF,#00A5FF)
+  }
+25% {
+  background-image: linear-gradient(100deg, #EB00FF, #00A5FF)  }
+50% {
+  background-image: linear-gradient(200deg, #EB00FF, #00A5FF)}  
+75%{background-image: linear-gradient(300deg, #EB00FF, #00A5FF)}
+    
+  100%{
+    background-image: linear-gradient(400deg,#EB00FF,#00A5FF)
+    
+  }
+  
+}
+
+.fornt{
+  font-size: 13pt;
+  overflow: scroll;
+  height: 220px;
+  width: 90%;
+}
+.read{
+  transition: all 0.3s;
+  font-size: 18pt;
+  border: none;
+  background-color: #FFFFFFA6;
+  height: 55px;
+  width: 100%;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.read:hover{
+  background-color: #FF6C05;
+  color: #FFFFFF;
+}
+.buuton{
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  height: 55px;
+  border-top: 1px dotted #000000;
+ 
+}
+
+
+.show-box{
+  height: 500px;
+  width: 350px;
+  background-color: #009AFF00;
+  
+}
+n{color: red;}
+label{color: #FF7700}
+.input-box{
+  height: 40px;
+  width: 300px;
+  font-size: 16pt;
+  border: 2px solid #FF9E00;
+  outline:none;
+  background-color: #FF770000;
+   font-family: font1;
+}
+.input-box:focus{
+  border: 2px solid #11750B;
+}
+.input-box::placeholder{
+ color: #FF7700;
+}
+.ye{
+  height: 200px;
+  overflow: scroll;
+}
+.ye:focus{
+  border: 2px solid #FF7700;
+}
+.save{
+  height: 45px;
+  width: 100px;
+  outline: none;
+  background-color: #FC8013;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 15pt;
+}
+.send-box p{
+  padding: 5px;
+  color: #FF7D00;
+}
+.send-box{
+  box-shadow: 0 0 10px 0 black;
+  display: none;
+  height: 550px;
+  width: 350px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#xpx:hover{
+  background-color: red;
+}
+#xpx{
+ float: right;
+  margin: 5px;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  background-image: url("img/svg1.png");
+  
+}
+/*=======\\\\\\\=====================\ css monile data found =====*/
+
+
+/*=============================================*/
+/*===== it`s contact.html===*/
+.bg1{
+ 
+  word-wrap: break-word;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  background-image: url("bgimg/2.jpg") ;
+    background-size: cover;
+    font-family: font1; 
+}
+.box{
+ 
+  width: 90%;
+  background-color: #FFFFFFA1;
+  border-radius: 10px;
+ box-shadow: 0 0 10px 0 black;
+}
+.img-box{
+  
+  height: 200px;
+  width: 200px;
+  animation: kso 1s;
+  background-image: url("img/nahid.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 200px;
+}
+@keyframes kso{
+ 0%{
+  height: 0;
+  width: 0;
+ }
+ 100%{
+ width: 200px;
+ height: 200px;
+ }
+}
+.hover{
+  height: 200px;
+  width: 200px;
+  background-color: #FFFFFFE8;
+  border-radius: 200px;
+  align-items: center;
+  font-size: 30px;
+  display: none;
+  transition: 1s;
+}
+button{
+  cursor: pointer;
+}
+.img-box:hover .hover{
+  display: block;
+ cursor: pointer;
+}
+.line{
+  border-bottom: 3px solid;
+ animation: kso1 2s;
+  text-align: center;
+  font-size: 29px;
+}
+@keyframes kso1{
+  0%{color: #FF00FB}
+  10%{color: #9D00FF }
+  20%{color: #FFB300}
+  30%{color: #FF5000}
+  40%{color: #F2FF00}
+  50%{color: #8800FF}
+  60%{color: #00FF9A}
+  70%{color: #459817}
+  80%{color: #00FFB3}
+  90%{color: #FF001F}
+  100%{color: #61FF00}
+  
+}
+
+/* the all a tag style */
+a,i{
+  color: #EE00FF;
+  text-decoration-line: none;
+  cursor: pointer;
+  outline: none;
+}
+a,i:active{
+  color: #FF00E5;
+}
+a:hover,i:hover{
+ 
+text-decoration-line: underline;
+text-decoration-style: wavy;
+}
+
+/* skils test bt-row--*/
+.bt-row{
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+.sk{
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 5px 0 black;
+}
+.sk img{
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+}
+/* row ds sutep ---*/
+.row-ds{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.note{
+  font-size: 9pt;
+  background-color: #FF9000;
+  border-radius: 10px;
+  width: 80px;
+position: absolute;
+color: white;
+}
+/*==== about JavaScript data*/
+.about-data{
+  display: none;
+  height: 500px;
+  width: 300px;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 0 0 70px 0 black;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  animation: jsData 0.5s;
+}
+
+/* aboot box data*/
+@keyframes jsData{
+  0%{height: 0;width: 0;}
+  100%{height: 500px;width:300px;}
+}
+
+.img{
+ height: 200px;
+ width: 90%;
+ background-color: #FFFFFF80;
+ border-radius: 10px;
+ box-shadow: 0 0 5px 0 black;
+ 
+}
+.img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+/* Data Password is a Mobi6*/
+
+/*========= zp data ================>*/
+
+
+@media only screen and (max-width: 800px){
+ 
+/* skils test bt-row--*/
+.bt-row{
+  width: 330px;
+  justify-content: space-around;
+  display: flex;
+}
+/* row ds sutep ---*/
+.row-ds{
+  height: auto;
+  width: auto;
+  display: block;
+  justify-content: none;
+}
+ 
+ 
+ 
+  .divi{
+    height: 100px;
+  }
+  .font-box{
+    width: 95%;
+  }
+  .cont{
+    height: 90vh;
+  }
+ .nav-data{
+   display: none;
+ }
+ .menu{
+   top: 10px;
+   height: 40px;
+   width: 40px;
+  display: block;
+   position: absolute;
+  right: 18px;
+ }
+ .menu-btn{
+   cursor: pointer;
+   height: 40px;
+   width: 40px;
+   background-color: #498E2E00;
+   border: none;
+   background-size: cover;
+ }
+ .img-btn{
+   cursor: pointer;
+   height: 100%;
+   width: 100%;
+ }
+ 
+.mobile{
+  display: none;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #FFFFFF;
+  z-index: 10;
+  animation: rode 0.5s;
+}
+@keyframes rode{
+  0%{width: 0;}
+  100%{width: 100%;}
+}
+.mobile .atn{
+  top: 10px;
+  position: absolute;
+  right: 18px;
+
+}
+.button-box{
+  height: auto;
+  width: auto;
+  
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.button-box button{
+  height:40px;
+  width: 100%;
+  margin: 10px;
+  background-color: #FFFFFF00;
+ border: 2px dotted #FF8200;
+ border-radius: 10px;
+}
+.button-box .active{
+  color: #498E2E;
+  border: 2px solid #498e3e;
+}
+.blogs{
+ height: 2000px ;
+}
+}
+/*==== end  css monile data found =====*/
+
